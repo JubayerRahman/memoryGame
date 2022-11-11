@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+nav{
+    background-color: cadetblue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+.gameSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+/* #grid{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw 15vw;
+    justify-content: center;
+} */
+#grid{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    color: #5F9EA0;
+}
+#reload{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #5F9EA0;
+    padding: 10px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    transition:0.5s ease-out;
+    margin: 10px;
+}
+#reload:hover{
+    background-color: white;
+    border: 2px solid #5F9EA0;
+    color: #5F9EA0;
+}
+@media (min-width:300px) and (max-width:690px) {
+
+    #grid{
+        width: 90vw;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        grid-template-rows: 20vw 20vw 20vw 20vw;
+        justify-content: space-evenly;
+    }
+    img{
+        width: 40px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 0px 10px;
+        padding-top: 10px;
+    }
+} 
