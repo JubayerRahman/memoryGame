@@ -83,7 +83,7 @@ function flip(){
     chooseCardid.push(id);
     this.setAttribute('src', BikeArray[id].img);
     if(chooseCard.length === 2){
-        setTimeout(check, 1000)
+        setTimeout(check, 3000)
     }
 }
 
