@@ -81,12 +81,14 @@ img{
         width: 90vw;
         height: 200px;
         display: grid;
-        grid-template-columns: 20vw 20vw 20vw 20vw;
-        grid-template-rows: 20vw 20vw 20vw 20vw;
-        justify-content: space-evenly;
+        grid-template-columns: 25vw 25vw 25vw;
+        grid-template-rows: 35vw 35vw 35vw 35vw;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
     }
     img{
-        width: 40px;
+        width: 70px;
         border: 2px solid gray;
         border-radius: 10px;
         padding: 0px 10px;
